@@ -226,10 +226,11 @@ class PlotCanvas(FigureCanvas):
     def plot(self):
         ax = self.figure.add_subplot(111)
         ax.set_title('Sample plot')
-        '''
-        Circle 1 center -  2.5,7.5 Radius = 2.5
-        Circle 2 center -  7.5,2.5 Radius = 2.5
-        '''
+        circle1 = plt.Circle((2.5,7.5), 2.5, color = 'blue', fill = False )
+        circle2 = plt.Circle((7.5, 2.5), 2.5, color = 'blue', fill = False )
+        ax.add_artist(circle1)
+        ax.add_artist(circle2)
+
         ax.axes.plot([0,0,5,5,0,5,5,10,10,5], [0,5,5,0,0,0,10,10,5,5])
         self.show()
 
