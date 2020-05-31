@@ -1,7 +1,7 @@
 # Welcome to Polygons-with-PyQt
 
-You get to draw some polygons just by mouse clicks or you can draw circles with given center and radius
-UI is made simple and convinient, even for a novice.
+You get to draw some polygons just by mouse clicks or you can draw circles with given center and radius.
+UI is made simple and convenient, even for a novice.
 
 Pip3 Modules required:
 
